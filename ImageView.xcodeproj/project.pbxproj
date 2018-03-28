@@ -14,6 +14,8 @@
 		FE16DCF1205A92F700576822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE16DCEF205A92F700576822 /* LaunchScreen.storyboard */; };
 		FE16DCFC205A92F700576822 /* ImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE16DCFB205A92F700576822 /* ImageViewTests.swift */; };
 		FE16DD07205A92F700576822 /* ImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE16DD06205A92F700576822 /* ImageViewUITests.swift */; };
+		FE16DD16205A967E00576822 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = FE16DD14205A967D00576822 /* lamp_off.png */; };
+		FE16DD17205A967E00576822 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = FE16DD15205A967D00576822 /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FE16DD02205A92F700576822 /* ImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE16DD06205A92F700576822 /* ImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewUITests.swift; sourceTree = "<group>"; };
 		FE16DD08205A92F700576822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE16DD14205A967D00576822 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		FE16DD15205A967D00576822 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		FE16DCE5205A92F700576822 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
+				FE16DD14205A967D00576822 /* lamp_off.png */,
+				FE16DD15205A967D00576822 /* lamp_on.png */,
 				FE16DCE6205A92F700576822 /* AppDelegate.swift */,
 				FE16DCE8205A92F700576822 /* ViewController.swift */,
 				FE16DCEA205A92F700576822 /* Main.storyboard */,
@@ -234,7 +240,9 @@
 			files = (
 				FE16DCF1205A92F700576822 /* LaunchScreen.storyboard in Resources */,
 				FE16DCEE205A92F700576822 /* Assets.xcassets in Resources */,
+				FE16DD17205A967E00576822 /* lamp_on.png in Resources */,
 				FE16DCEC205A92F700576822 /* Main.storyboard in Resources */,
+				FE16DD16205A967E00576822 /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
